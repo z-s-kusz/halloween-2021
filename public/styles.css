@@ -1,0 +1,295 @@
+@font-face {
+  font-family: 'Antiqua';
+  src: url('/assets/modern-antiqua.regular.ttf');
+}
+@font-face {
+  font-family: 'Jolly';
+  src: url('/assets/jolly-lodger.regular.ttf');
+}
+
+@font-face {
+  font-family: 'Wax-Drip';
+  src: url('/assets/KCWaxMuseum-Drip.otf');
+}
+
+.wax-drip {
+  font-family: 'Wax-Drip', 'Creepster', sans-serif;
+}
+.jolly {
+  font-family: 'Jolly', 'Creepster', sans-serif;
+}
+.antiqua {
+  font-family: 'Antiqua', 'Creepster', sans-serif;
+}
+.nosifer {
+  font-family: 'Nosifer', 'Wax-Drip', sans-serif;
+}
+.creepster {
+  font-family: 'Creepster', 'Wax-Drip', sans-serif;
+}
+.flesheater {
+  font-family: 'Eater', 'Wax-Drip', sans-serif;
+}
+.gothic {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.layered-shaddow {
+  box-shadow:
+    0px 4.5px 3.3px rgba(0, 0, 0, 0.045),
+    0px 12.5px 9px rgba(0, 0, 0, 0.065),
+    0px 30.1px 21.7px rgba(0, 0, 0, 0.085),
+    0px 100px 72px rgba(0, 0, 0, 0.13);
+}
+
+/* resets */
+body {
+  margin: 0;
+}
+h1, h2 {
+  margin: 1rem;
+}
+p {
+  margin: 0;
+}
+/*  */
+
+em {
+  font-weight: bold;
+  color: #91091E;
+  font-family: 'Antiqua', 'Creepster', sans-serif;
+}
+x {
+  font-family: 'Antiqua', 'Creepster', sans-serif;
+}
+body {
+  --border-rad: 0.75rem;
+}
+.page-header {
+  background-color: blueviolet;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+  overflow: auto;
+}
+.page-header h1 {
+  font-size: 5rem;
+}
+.page-header h2 {
+  font-size: 3rem;
+}
+footer {
+  background-color: blueviolet;
+  padding: 1rem;
+  text-align: center;
+  text-indent: 0;
+}
+a {
+  color: #F58B54;
+}
+a:visited {
+  color: #FF0000;
+}
+/* cards */
+section {
+  margin: 1rem;
+  border-radius: var(--border-rad);
+}
+.game-desc {
+  padding: 1rem;
+  font-size: 1.1rem;
+  text-indent: 1.5rem;
+}
+.game-desc-bars {
+  border-radius: var(--border-rad) var(--border-rad) 0 0;
+}
+.game-desc-bars .bar1 {
+  background-color: #211717;
+  border-radius: var(--border-rad) var(--border-rad) 0 0;
+}
+.game-desc-bars .bar2 {
+  background-color: #A34A28;
+}
+.game-desc-bars .bar3 {
+  background-color: #F58B54;
+}
+
+.character-header {
+  text-align: center;
+  overflow: auto;
+  border-radius: var(--border-rad) var(--border-rad) 0 0;
+}
+.character-header h1 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+}
+.character-header h2 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+.character-desc {
+  padding: 1rem;
+  text-indent: 1.5rem;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+/*  */
+
+.bar1 {
+  height: 0.875rem;
+}
+.bar2 {
+  height: 0.45rem;
+}
+.bar3 {
+  height: 0.275rem;
+}
+
+
+.greeny h1 {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+.greeny-span {
+  font-size: 0.9rem;
+}
+.greeny {
+  color: #1E5128;
+  background-color: #D8E9A8;
+}
+.greeny .bar1 {
+  background-color: #191A19;
+}
+.greeny .bar2 {
+  background-color: #1E5128;
+}
+.greeny .bar3 {
+  background-color: #4E9F3D;
+}
+.redrum h1 {
+  margin-top: 0.7rem;
+}
+.redrum h2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+.redrum {
+  color: #8F0E0E;
+  background-color: #F7F6DE;
+}
+.redrum .bar1 {
+  background-color: #FA7E0A;
+}
+.redrum .bar2 {
+  background-color: #8F0E0E;
+}
+.redrum .bar3 {
+  background-color: #530C0C;
+}
+
+.black-soul h1 {
+  margin-top: 0.7rem;
+  font-size: 2.2rem;
+}
+.black-soul span {
+  font-size: 1.5rem;
+}
+.black-soul h2 {
+  margin-top: 0.33rem;
+  font-size: 1.8rem;
+}
+.black-soul {
+  color: #151515;
+  background-color: #B4A5A5;
+}
+.black-soul .bar1 {
+  background-color: #301B3F;
+}
+.black-soul .bar2 {
+  background-color: #3C415C;
+}
+.black-soul .bar3 {
+  background-color: #151515;
+}
+
+.zombies h1 {
+  margin-bottom: 0;
+}
+.zombies span {
+  font-size: 0.8rem;
+}
+.zombies {
+  color: #864000;
+  background-color: #FFEFCF;
+}
+.zombies .bar1 {
+  background-color: #D44000;
+}
+.zombies .bar2 {
+  background-color: #FF7A00;
+}
+.zombies .bar3 {
+  background-color: #864000;
+}
+
+.scooby h1 {
+  margin-top: 0.7rem;
+  font-size: 2.2rem;
+}
+.scooby span {
+  font-size: 1.5rem;
+}
+.scooby h2 {
+  margin-top: 0.33rem;
+  font-size: 1.8rem;
+}
+.scooby {
+  color:#950101;
+  background-color: #FDF1D6;
+}
+.scooby .bar1 {
+  background-color: #3D0000;
+}
+.scooby .bar2 {
+  background-color: #950101;
+}
+.scooby .bar3 {
+  background-color: #FF0000;
+}
+
+.sweater h1 {
+  margin-top: 0.55rem;
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+.sweater span {
+  font-size: 1.3rem;
+}
+.sweater h2 {
+  font-size: 1.55rem;
+}
+.sweater {
+  color: #0B032D;
+  background-color: #FFB997;
+}
+.sweater .bar1 {
+  background-color: #F67E7D;
+}
+.sweater .bar2 {
+  background-color: #843B62;
+}
+.sweater .bar3 {
+  background-color: #0B032D;
+}
+
+/* positioning + lg-screen accomidation*/
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 456px;
+}
