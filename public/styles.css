@@ -6,12 +6,38 @@
   font-family: 'Jolly';
   src: url('/assets/jolly-lodger.regular.ttf');
 }
-
 @font-face {
   font-family: 'Wax-Drip';
   src: url('/assets/KCWaxMuseum-Drip.otf');
 }
-
+@font-face {
+  font-family: 'Murderer';
+  src: url('/assets/youmurderer-bb.regular.ttf');
+}
+@font-face {
+  font-family: 'Requiem';
+  src: url('/assets/requiem.regular.ttf');
+}
+@font-face {
+  font-family: 'DieDieDie';
+  src: url('/assets/diediedie.regular.ttf');
+}
+@font-face {
+  font-family: 'Griffy';
+  src: url('/assets/griffy.regular.ttf');
+}
+.griffy {
+  font-family: 'Griffy', 'Creepster', sans-serif;
+}
+.ddd {
+  font-family: 'DieDieDie', 'Creepster', sans-serif;
+}
+.requiem {
+  font-family: 'Requiem', 'Creepster', sans-serif;
+}
+.murderer {
+  font-family: 'Murderer', 'Creepster', sans-serif;
+}
 .wax-drip {
   font-family: 'Wax-Drip', 'Creepster', sans-serif;
 }
@@ -95,6 +121,13 @@ section {
   margin: 1rem;
   border-radius: var(--border-rad);
 }
+.break-text {
+  font-size: 1.8rem;
+  width: 100%;
+  margin: 0;
+  padding: 1rem;
+  box-sizing: border-box;
+}
 .game-desc {
   padding: 1rem;
   font-size: 1.1rem;
@@ -166,10 +199,13 @@ section {
 .greeny .bar3 {
   background-color: #4E9F3D;
 }
+
 .redrum h1 {
   margin-top: 0.7rem;
+  font-size: 1.7rem;
 }
 .redrum h2 {
+  font-size: 1.3rem;
   margin-top: 0.5rem;
   margin-bottom: 0.2rem;
 }
@@ -214,9 +250,14 @@ section {
 
 .zombies h1 {
   margin-bottom: 0;
+  margin-top: 0.5rem;
+  font-size: 1.6rem;
 }
 .zombies span {
   font-size: 0.8rem;
+}
+.zombies h2 {
+  font-size: 1.3rem;
 }
 .zombies {
   color: #864000;
@@ -234,14 +275,14 @@ section {
 
 .scooby h1 {
   margin-top: 0.7rem;
-  font-size: 2.2rem;
+  font-size: 1.6rem;
 }
 .scooby span {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .scooby h2 {
   margin-top: 0.33rem;
-  font-size: 1.8rem;
+    font-size: 1.2rem;
 }
 .scooby {
   color:#950101;
@@ -260,26 +301,79 @@ section {
 .sweater h1 {
   margin-top: 0.55rem;
   margin-bottom: 0;
-  font-size: 2rem;
+  font-size: 2.1rem;
 }
 .sweater span {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 .sweater h2 {
   font-size: 1.55rem;
 }
 .sweater {
-  color: #0B032D;
-  background-color: #FFB997;
+  color: #FF6C00;
+  background-color: #23103A;
 }
 .sweater .bar1 {
-  background-color: #F67E7D;
+  background-color: #282D4F;
 }
 .sweater .bar2 {
-  background-color: #843B62;
+  background-color: #A0204C;
 }
 .sweater .bar3 {
-  background-color: #0B032D;
+  background-color: #FF6C00;
+}
+
+.maze-kids h1 {
+  margin-top: 0.55rem;
+  margin-bottom: 0;
+  font-size: 1.8rem;
+}
+.maze-kids span {
+  font-size: 1.3rem;
+}
+.maze-kids h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.2rem;
+}
+.maze-kids {
+  color: #F78F1E;
+  background-color: #461B93;
+}
+.maze-kids .bar1 {
+  background-color: #6A3CBC;
+}
+.maze-kids .bar2 {
+  background-color: #8253D7;
+}
+.maze-kids .bar3 {
+  background-color: #F78F1E;
+}
+
+.final-girl h1 {
+  margin-top: 0.65rem;
+  font-size: 2.5rem;
+  margin-bottom: 0.33rem;
+}
+.final-girl span {
+  font-size: 1.5rem;
+}
+.final-girl h2 {
+  font-size: 1.95rem;
+  margin-top: 0.45rem;
+  margin-bottom: 0.1rem;
+}
+.final-girl {
+  color: #8F1D14;
+  background-color: #F6E9E9;
+}
+.final-girl .bar1 {
+  background-color: #1B120F;
+}
+.final-girl .bar2 {
+  background-color: #F89D13;
+}
+.final-girl .bar3 {
+  background-color: #8F1D14;
 }
 
 /* positioning + lg-screen accomidation*/
