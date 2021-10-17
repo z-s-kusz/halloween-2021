@@ -104,11 +104,15 @@ body {
 .page-header h2 {
   font-size: 3rem;
 }
+
 footer {
   background-color: blueviolet;
   padding: 1rem;
   text-align: center;
   text-indent: 0;
+}
+footer span {
+  font-size: 0.85rem;
 }
 a {
   color: #F58B54;
@@ -116,6 +120,7 @@ a {
 a:visited {
   color: #FF0000;
 }
+
 /* cards */
 section {
   margin: 1rem;
@@ -386,4 +391,10 @@ main {
   flex-direction: column;
   align-items: center;
   max-width: 456px;
+}
+.center-text {
+  text-align: center;
+}
+.right-text {
+  text-align: end;
 }
